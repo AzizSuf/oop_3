@@ -1,0 +1,22 @@
+﻿<Window x:Class="Ex3_CheckedUnchecked.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex3_CheckedUnchecked"
+        mc:Ignorable="d"
+        Title="Integer Overflow" Height="180" Width="500">
+    <Grid>
+        <TextBox x:Name="num1UncheckedTextBox" HorizontalAlignment="Left" Margin="20,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="num2UncheckedTextBox" HorizontalAlignment="Left" Margin="171,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <Label Content="X" HorizontalAlignment="Left" Margin="145,25,0,0" VerticalAlignment="Top" FontSize="18" Height="32"/>
+        <Button x:Name="mulUncheckedButton" Content="Mul" HorizontalAlignment="Left" Margin="296,26,0,0" VerticalAlignment="Top" FontSize="18" Click="mulUncheckedButton_Click"/>
+        <Label x:Name="resultUnheckedLabel" Content="" HorizontalAlignment="Left" Margin="358,24,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="num1CheckedTextBox" HorizontalAlignment="Left" Margin="20,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="num2CheckedTextBox" HorizontalAlignment="Left" Margin="171,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <Label Content="X" HorizontalAlignment="Left" Margin="145,90,0,0" VerticalAlignment="Top" FontSize="18" Height="32"/>
+        <Button x:Name="mulCheckedButton" Content="Mul" HorizontalAlignment="Left" Margin="296,91,0,0" VerticalAlignment="Top" FontSize="18" Click="mulCheckedButton_Click"/>
+        <Label x:Name="resultCheckedLabel" Content="" HorizontalAlignment="Left" Margin="358,89,0,0" VerticalAlignment="Top" FontSize="18"/>
+
+    </Grid>
+</Window>
