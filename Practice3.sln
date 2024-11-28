@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex1", "Ex1\Ex1.csproj", "{B8B7272B-9A45-47D4-9C0B-5F7828FE14A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3_CheckedUnchecked", "Ex3_CheckedUnchecked\Ex3_CheckedUnchecked.csproj", "{D1806E2C-15FF-4E3F-9A1C-894C200B0895}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex3_CheckedUnchecked", "Ex3_CheckedUnchecked\Ex3_CheckedUnchecked.csproj", "{D1806E2C-15FF-4E3F-9A1C-894C200B0895}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex4_Cryptography", "Ex4_Cryptography\Ex4_Cryptography.csproj", "{39779FE5-CD3F-4212-BA7F-3DB9DC271BFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionsExperiments", "ExceptionsExperiments\ExceptionsExperiments.csproj", "{407D7A65-56E1-4C01-9482-92A0784A0017}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{D1806E2C-15FF-4E3F-9A1C-894C200B0895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1806E2C-15FF-4E3F-9A1C-894C200B0895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1806E2C-15FF-4E3F-9A1C-894C200B0895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39779FE5-CD3F-4212-BA7F-3DB9DC271BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39779FE5-CD3F-4212-BA7F-3DB9DC271BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39779FE5-CD3F-4212-BA7F-3DB9DC271BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39779FE5-CD3F-4212-BA7F-3DB9DC271BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407D7A65-56E1-4C01-9482-92A0784A0017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407D7A65-56E1-4C01-9482-92A0784A0017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407D7A65-56E1-4C01-9482-92A0784A0017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407D7A65-56E1-4C01-9482-92A0784A0017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
